@@ -1,0 +1,6 @@
+[submodule "dbt-references/dbt-core/dbt-core"]
+	path = dbt-references/dbt-core/dbt-core
+	url = https://github.com/dbt-labs/dbt-core.git
+[submodule "dbt-references/dbt-testProjects/dbt-core"]
+	path = dbt-references/dbt-testProjects/dbt-core
+	url = https://github.com/dbt-labs/dbt-core.git

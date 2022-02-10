@@ -1,8 +1,30 @@
 
-DBT Modern Data Stack .  
+DBT Modern Data Stack .
+
+
+## 1- Pipeline documentation
+
+## 2- Database Tables Can  Quality tested easily 
+  - SODA SQL Integeration 
+  - GreatExpectations Integration
+
+## 3- Database tables can be documented easily 
+- Documenting table names , Columns names & description 
+
+## 4- Whole piplelines inlined via Microservice architecture
+
+## 5- Can be integerated into Modern CI/CD Pipeline.
+
+## 6- Can version controlled Easily  
+
+## 7- Code organisation - organizing SQL transformation pipelines
+
+
+## 8- Orchestrate &  scheduled workflow
+ - DBT Jobs compatible with following  orchestration frameworks : ```prefect``` and ```Airflow```
 
 ---
-## Each Table have to Unit tested 
+## Unit test Example.
 Example :
 ```YML
 version: 2
@@ -40,4 +62,9 @@ models:
 
 ```
 ---
-## All dbt projects should be managed in version control
+## All dbt projects should be version controled 
+
+
+
+
+ 
