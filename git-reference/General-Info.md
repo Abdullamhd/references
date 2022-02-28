@@ -15,3 +15,6 @@ Examples :
 - ``` git status -s ``` # this short list of status of the file 
 - ``` git diff ``` ## compare between working dir and staged 
 - ``` git diff --staged ``` ## for what you staged so far 
+
+## Git Commiting the change 
+- ``` git commit -v ``` ## used for pass the changes to commit editor so every changes displays clearly 
