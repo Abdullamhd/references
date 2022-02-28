@@ -18,3 +18,4 @@ Examples :
 
 ## Git Commiting the change 
 - ``` git commit -v ``` ## used for pass the changes to commit editor so every changes displays clearly 
+- ``` git commit -v -a ``` ## Skipping the Staging Area in GIT 
