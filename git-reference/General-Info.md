@@ -82,4 +82,24 @@ git commit --amend
  ## working with remote
  ### to display the remote urls :
  - git remote -v 
- 
+ ### This will display more information
+ - git remote show origin 
+
+
+ ---
+ ## Tagging 
+ ### Listing the tags 
+ - git tag 
+ - git tag -l 
+ - git tag -l "seach term"
+ ### It's recommended to create Annotated tag 
+
+#### Creating Annotated TAG 
+ -  git tag -a v1.4 -m "my version 1.4"
+ -  git show v1.4 
+ - 
+#### Create tag for specifc commit ID 
+ -   git tag -a v1.2 9fceb02
+#### push tags 
+- git push origin --tags
+- git push origin v1.5
