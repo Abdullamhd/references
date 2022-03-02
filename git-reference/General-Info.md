@@ -19,3 +19,20 @@ Examples :
 ## Git Commiting the change 
 - ``` git commit -v ``` ## used for pass the changes to commit editor so every changes displays clearly 
 - ``` git commit -v -a ``` ## Skipping the Staging Area in GIT 
+
+---
+
+## Removing files 
+
+1- First Remove the file from working directory 
+2- then run the ``` git rm FileName ``` and it's stage the file removal 
+3- commit the removal of the file 
+
+## This is particularly useful if you forgot to add something to your .gitignore file and accidentally staged it, like a large log file 
+
+
+```
+git rm --cached README
+```
+
+---
