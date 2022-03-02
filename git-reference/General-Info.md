@@ -36,3 +36,50 @@ git rm --cached README
 ```
 
 ---
+## Git log 
+
+### For showing the difference between each commit (Very helpful)
+- ```git log -p```
+
+### this option display how many lines added , how many files modified , how many lines removed etc
+- git log --stat
+
+## This option will display the summary of commit log
+- git log --pretty --oneline
+
+## takes a string and shows only those commits that changed the number of occurrences of that string
+- git log -S functionName | SearchString 
+
+## If you specify a directory or file name, you can limit the log output to commits that introduced a change to those files. 
+- git log -- path/to/file
+---
+## Undoing Things 
+
+### redo that commit, make the additional changes you forgot, stage them, and commit again using the ```--amend``` option  
+
+```bash
+git commit --amend 
+```
+
+## Unstaging the staged file (this suggestion available when we type git status)
+
+- git restore --staged CONTRIBUTING.md
+
+---
+
+## Unmodifying a Modified File 
+
+- git checkout filename 
+
+## Unmodifying a Modified File with git restore
+
+- git restore CONTRIBUTING.md
+- git restore fileame --staged
+
+
+ ---
+
+ ## working with remote
+ ### to display the remote urls :
+ - git remote -v 
+ 
