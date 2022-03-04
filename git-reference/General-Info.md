@@ -41,6 +41,11 @@ git rm --cached README
 ### For showing the difference between each commit (Very helpful)
 - ```git log -p```
 
+### For showing log for specific branch 
+- git log branchname --decorate --oneline
+
+### for showing log in all branches 
+- git log --all 
 ### this option display how many lines added , how many files modified , how many lines removed etc
 - git log --stat
 
@@ -52,6 +57,14 @@ git rm --cached README
 
 ## If you specify a directory or file name, you can limit the log output to commits that introduced a change to those files. 
 - git log -- path/to/file
+
+
+## display graph of logs 
+- git log --oneline --decorate --graph --all
+
+## Show the log by author name 
+- ```git log --author "Abdullah" ```
+
 ---
 ## Undoing Things 
 
@@ -103,3 +116,26 @@ git commit --amend
 #### push tags 
 - git push origin --tags
 - git push origin v1.5
+
+#### Deleting tag
+- git tag -d tagname
+####  Delete remote tag
+- git push origin --delete v1.0 
+---
+### Branching & Merging
+
+#### Creating new branch and switching to 
+- git checkout -b branchName
+- git switch -c newBranch 
+##### Return to previously created branch
+- git switch - 
+
+##### Delete branch
+- ```git branch -d branchName ```
+
+##### to see the last commit in branch 
+- ``` git branch -v ``` 
+
+
+
+
