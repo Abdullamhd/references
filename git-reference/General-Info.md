@@ -139,11 +139,15 @@ git commit --amend
 ##### Info : 
 
 1 Trying to delete not merged branch will fail 
-2 deleting already merged branch is generally safe . 
+2 deleting already merged branch is generally safe .
+3 we can pass argmenet such as branch name 
 
 - ``` git branch --merged```
 - ``` git branch --no-merged```
+- ``` git branch --no-merged master
 
+#### List all branch 
+- ``` git branch --all ```
 
 
 
