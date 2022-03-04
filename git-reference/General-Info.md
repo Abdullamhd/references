@@ -135,6 +135,15 @@ git commit --amend
 
 ##### to see the last commit in branch 
 - ``` git branch -v ``` 
+##### To see which branch is merged and which is not 
+##### Info : 
+
+1 Trying to delete not merged branch will fail 
+2 deleting already merged branch is generally safe . 
+
+- ``` git branch --merged```
+- ``` git branch --no-merged```
+
 
 
 
