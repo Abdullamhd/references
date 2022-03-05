@@ -9,12 +9,16 @@ Examples :
 - git add -h 
 - git commit - 
 - git help config 
+### Interactive staging (Partaly add files)
+- ``` git add --patch ```
 
 
 ## Generic git from Base chapter 
 - ``` git status -s ``` # this short list of status of the file 
 - ``` git diff ``` ## compare between working dir and staged 
 - ``` git diff --staged ``` ## for what you staged so far 
+## Check for whitespaces in the project (Important ) - Commit guideline 
+- ``` git diff --check ``` 
 
 ## Git Commiting the change 
 - ``` git commit -v ``` ## used for pass the changes to commit editor so every changes displays clearly 
@@ -148,6 +152,40 @@ git commit --amend
 
 #### List all branch 
 - ``` git branch --all ```
+#### list a tracking branch 
+- ``` git branch -vv ```
+#### Deleting remote branch 
+- ``` git push origin --delete branchName ```
+
+---
+## Git commit short guideline 
+### For seeing nicely formated commit history 
+- ``` git log --no-merges ``` 
+
+### Checking the whitespace before commit 
+- ``` git diff --check ``` 
+
+
+#### Capitalized, short (50 chars or less) summary
+
+- More detailed explanatory text, if necessary. Wrap it to about 72
+characters or so. In some contexts, the first line is treated as the
+subject of an email and the rest of the text as the body. The blank
+line separating the summary from the body is critical (unless you omit
+the body entirely); tools like rebase will confuse you if you run the
+two together.
+
+
+- Write your commit message in the imperative: "Fix bug" and not "Fixed bug"
+or "Fixes bug." This convention matches up with commit messages generated
+by commands like git merge and git revert.
+Further paragraphs come after blank lines.
+- - Bullet points are okay, too
+- - Typically a hyphen or asterisk is used for the bullet, followed by a
+single space, with blank lines in between, but conventions vary here
+- - Use a hanging indent
+
+
 
 
 
