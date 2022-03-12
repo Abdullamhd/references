@@ -11,5 +11,10 @@ https://github.com/nocodb/nocodb/blob/master/.github/COMMIT_CONVENTION.md
 ## Conventional Commits
 ### A specification for adding human and machine readable meaning to commit messages
 
+---
+## Trunk-based development
+
+https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development
+
 
 
