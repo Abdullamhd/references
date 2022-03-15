@@ -5,3 +5,6 @@ Shortcusts for camtasia
 shift + E 
 
 ---
+
+## Splititng the clips 
+Press the S key 
